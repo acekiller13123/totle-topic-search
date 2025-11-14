@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  margin: 0;
+  background: linear-gradient(115deg, #f0f9ff, #e0f2fe, #dbeafe);
   min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.App {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Smooth fade-in animation */
+.fade-in {
+  animation: fadeIn 0.45s ease;
 }
 
-@keyframes App-logo-spin {
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(6px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+/* Search field glow */
+input:focus {
+  border-color: #38bdf8 !important;
+  box-shadow: 0px 0px 12px rgba(56, 189, 248, 0.5) !important;
+}
+
+/* Card hover magic */
+div:hover .card {
+  transform: translateY(-2px) scale(1.01);
+}
+
+.card:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14) !important;
 }

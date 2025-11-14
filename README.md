@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# TOTLE – Frontend Developer Internship (Round 1 Submission)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains my solution for Round 1 of the TOTLE Frontend Developer Internship.  
+The task was to build a React component that displays a list of topics and filters them based on user input.  
+I kept the functionality simple as required, but focused on delivering a clean, modern, and polished UI that feels smooth and intuitive.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features Implemented
 
-### `npm start`
+### Live Topic Search
+- Real-time filtering as the user types  
+- Case-insensitive matching  
+- Handles empty input without issues  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Interactive Topic Cards
+- Smooth hover transitions  
+- Clean glassmorphism-inspired card styling  
+- Category badges with dynamic colors  
+- Easy-to-read layout  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Modern UI
+- Gradient heading  
+- Floating search bar with subtle glow  
+- Smooth fade-in animations  
+- Minimal, professional design  
+- Fully responsive  
 
-### `npm test`
+### Data Handling
+- Uses a simple in-memory array  
+- No backend or API required  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Error Handling
+- Displays “No topics found” when there are no matches  
+- Works consistently across all edge cases  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+totle-topic-search/
+│
+├── src/
+│ ├── components/
+│ │ └── TopicSearch.jsx
+│ ├── App.js
+│ ├── App.css
+│ ├── index.js
+│
+├── public/
+│ └── index.html
+│
+├── README.md
+├── package.json
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React.js  
+- Functional Components  
+- React Hooks (useState)  
+- Inline + external CSS  
+- Modern UI/UX practices  
+- Smooth CSS transitions  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Run the Project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
+git clone <YOUR_GITHUB_REPO_LINK>
 
-## Learn More
+2. Navigate into the folder:
+cd totle-topic-search
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies:
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server:
+npm start
 
-### Code Splitting
+The app will open at:  
+http://localhost:3000/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Video Explanation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A short 2-minute video is included, covering:
+- Component structure  
+- Filtering logic  
+- UI decisions  
+- How to run the project  
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## GitHub Repository Link
 
-### Advanced Configuration
+Add your GitHub link here.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Acknowledgment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you to the TOTLE team for reviewing my submission.  
+I enjoyed building this UI and ensuring it felt clean, simple, and user-friendly.  
+Looking forward to the next stages.
