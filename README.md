@@ -69,7 +69,8 @@ totle-topic-search/
 ## How to Run the Project
 
 1. Clone the repository:
-git clone <YOUR_GITHUB_REPO_LINK>
+git clone [<YOUR_GITHUB_REPO_LINK>](https://github.com/acekiller13123/totle-topic-search
+)
 
 2. Navigate into the folder:
 cd totle-topic-search
